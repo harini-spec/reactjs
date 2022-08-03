@@ -1,0 +1,29 @@
+traditional approach - multi page approach
+single page application - one page but content changes using javascript
+
+npx -- node package execute -- node knows what to do 
+create react app -- ctreates boilerplate 
+
+node_modules -- all required modules -- wont touch it
+src -- App.js -- this is wht is being displayed in the web -- returns html 
+camelcase for attributes
+index.js -- one div renders the required js 
+
+DOM - it'll put the page in memory and compare the pages with this memory 
+so only the changed nodes will be changed in the page 
+once the page is loaded, it won't have to reload.
+
+components:
+functional component -- function app in app.js
+<login /> -- empty login tag
+class component
+
+react has props object for everything
+shd give {} -- to display parameter value, values or anything else
+
+if u know which value u r gonna get -- use it as a function parameter itself instead of using props 
+
+.jsx -- javascript xml
+react uses babel like interpreter and compiler 
+
+why do we have a component folder -- reusability, just import and use it 
